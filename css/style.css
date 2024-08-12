@@ -606,7 +606,7 @@ body {
 .story {
     background-color: #245852;
     padding-top: 229px;
-    padding-bottom: 177px;
+    padding-bottom: 172px;
 }
 
 .story .container {
@@ -712,4 +712,104 @@ video::-webkit-media-controls {
         width: 30px;
         height: 30px;
     }
+}
+
+
+.product {
+    padding-top: 120px;
+    padding-bottom: 168px;
+}
+.product__flex {
+    padding-left: 22px;
+    padding-right: 22px;
+    display: flex;
+    justify-content: center;
+    /* gap: 28px; */
+}
+
+
+.product__flex-item:nth-child(2) {
+    
+    /* margin-left: 115px; */
+
+}
+
+.product__img-block {
+    height: 573px;
+    width: 639px;
+    border-radius: 18px;
+    background-color: rgb(1, 153, 109, 20%);
+    text-align: center;
+}
+.product-img {
+    margin-right: 17px;
+}
+.product_ava-block {
+    padding-top: 23px;
+    height: 294px;
+    width: 296px;
+    border-radius: 4px;
+    text-align: center;
+}
+.custom-title {
+    width: 110.5px;
+    border-bottom: 0.75px solid #000;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+/* .custom-ava {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    background-color: rgb(1, 153, 109, 20%);
+} */
+/* .product-ava {
+} */
+.custom-name {
+}
+.text-h5 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 157%;
+}
+
+.text-h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 157%;
+    font-weight: 700;
+}
+.custom-list {
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    list-style-position: inside;
+    
+    
+
+}
+.custom-list li {
+    line-height: 157%;
+    padding-left: 20px;
+    
+}
+.custom-list li:nth-child(1) {
+    margin-bottom: 16px;
+}
+
+.custom-list li:nth-child(2) {
+    padding: 0;
+    margin-right: 14px;
+}
+
+
+.text-h3 {
+}
+.text-h2 {
+}
+.product__flex-item .text-p {
+    width: 520px;
+}
+.btn {
 }
