@@ -206,6 +206,10 @@ body {
     display: none;
    }
 
+   .Sign_btn .btn {
+    font-size: 13px;
+   }
+
 
 }
 
@@ -319,7 +323,7 @@ body {
 
 .work {
     padding-top: 166px;
-    padding-bottom: 51px;
+    padding-bottom: 47px;
 }
 
 
@@ -538,8 +542,79 @@ body {
 
 
 @media screen and (max-width: 380px) {
-    .work__title-item .text-p {
+    .work .text-h2 {
+        font-size: 30px;
         width: 370px;
     }
+
+    .work__title-item .text-p {
+        width: 370px;
+        font-size: 13px;
+        width: 350px;
+        
+    }
+
+    .work__flex-item .text-p {
+        font-size: 13px;
+        margin-right: 0;
+    }
+
+    .work__flex-item:nth-child(3) .text-p {
+        width: 350px;
+    }
+
+    
 }
+
+
+.story {
+    background-color: #245852;
+    padding-top: 229px;
+    padding-bottom: 177px;
+}
+
+.story .container {
+    max-width: 1507px;
+}
+.story__flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+.story__flex-item {
+    position: relative;
+}
+.story__flex-item .text-h2 {
+    color: #fff;
+    margin-top: 81px;
+    margin-bottom: 33px;
+}
+.story__flex-item .text-p {
+    color: #fff;
+    font-size: 25px;
+    line-height: 157%;
+    font-weight: 600;
+    margin-bottom: 79px;
+}
+.story__flex-item .btn {
+    padding: 20px 50px;
+}
+
+video {
+    border-radius: 16px;
+  
+}
+
+video::-webkit-media-controls {
+    display: none;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* коррекция положения элемента */
+    transform: translate(-50%, -50%);
+}
+
     
