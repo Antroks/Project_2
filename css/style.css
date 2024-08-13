@@ -723,10 +723,13 @@ video::-webkit-media-controls {
     padding-left: 22px;
     padding-right: 22px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /* gap: 28px; */
 }
 
+.product__flex-item {
+    position: relative;
+}
 
 .product__flex-item:nth-child(2) {
     
@@ -745,17 +748,23 @@ video::-webkit-media-controls {
     margin-right: 17px;
 }
 .product_ava-block {
+    position: absolute;
     padding-top: 23px;
     height: 294px;
     width: 296px;
     border-radius: 4px;
     text-align: center;
+    bottom: -77px;
+    left: -60px;
+    background-color: #fff;
+    box-shadow: -3px 3px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .custom-title {
     width: 110.5px;
     border-bottom: 0.75px solid #000;
     margin: 0 auto;
     margin-bottom: 14px;
+    padding-bottom: 4px;
 }
 /* .custom-ava {
     width: 57px;
@@ -766,6 +775,9 @@ video::-webkit-media-controls {
 /* .product-ava {
 } */
 .custom-name {
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 .text-h5 {
     margin: 0;
@@ -775,41 +787,69 @@ video::-webkit-media-controls {
 }
 
 .text-h4 {
+    margin: 0;
+    margin-bottom: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 157%;
     font-weight: 700;
 }
 .custom-list {
-    font-size: 11px;
+    margin: 0;
     font-weight: 400;
-    text-align: center;
-    list-style-position: inside;
-    
-    
+    text-align: left;
+    /* list-style-position: inside; */
+    list-style-type: none;
+
 
 }
+.custom-list li::before {
+    content: "•";
+    color: black;
+    display: inline-block;
+    margin-left: 21px;
+    font-size: 10px;
+    width: 0.9em;
+}
+
 .custom-list li {
-    line-height: 157%;
-    padding-left: 20px;
+    font-size: 11px;
+    line-height: 17px;
+    /* padding-left: 20px;
+    
+    padding-left: 0;
+    */
     
 }
+
+
 .custom-list li:nth-child(1) {
     margin-bottom: 16px;
 }
 
 .custom-list li:nth-child(2) {
     padding: 0;
-    margin-right: 14px;
+
 }
 
 
-.text-h3 {
+
+
+.product__flex-item .text-h3 {
+    margin: 0;
 }
-.text-h2 {
+.product__flex-item .text-h2 {
+    margin: 0;
+    margin-top: 13px;
 }
 .product__flex-item .text-p {
+    margin-bottom: 52px;
     width: 520px;
 }
-.btn {
+.product__flex-item  .btn {
+    padding: 21px 50px;
+}
+
+.indent {
+    margin-left: 60px;
 }
